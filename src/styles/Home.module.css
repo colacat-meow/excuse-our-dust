@@ -13,12 +13,13 @@
 }
 
 .wreath {
-  margin: 100px auto;
   color: #edded2;
   text-align: center;
   border-radius: 50%;
   border:#edded2 dotted 3px;
-  height: 600px;
-  width: 600px;
-  padding-top: 225px;
+  min-width: 250px;
+  height: 300px;
+  max-width: 600px;
+  padding-top: 90px;
+  margin: 30px auto 0 auto;
 }
