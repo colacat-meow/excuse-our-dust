@@ -1,0 +1,66 @@
+.navbar {
+  background-color: #edded2;
+}
+
+.hamburger {
+  position: relative;
+  cursor: pointer;
+  width: 25px;
+  height: 20px;
+}
+
+@media (min-width: 0px) and (max-width: 991px) {
+  .hamburger {
+    display: block;
+  }
+}
+
+@media (min-width: 992px) {
+  .hamburger {
+    display: none;
+  }
+}
+
+.hamburger div {
+  position: absolute;
+  width: 25px;
+  height: 4px;
+  background-color: #0d1321;
+  border-radius: 25%;
+  transition: all 0.3s ease;
+}
+
+.hamburger .line1 {
+  top: 0;
+}
+
+.hamburger .line2 {
+  top: 50%;
+}
+
+.hamburger .line3 {
+  top: 100%;
+}
+
+.toggle .line1 {
+  transform: rotate(-135deg);
+  top: 50%;
+}
+
+.toggle .line2 {
+  display: none;
+}
+
+.toggle .line3 {
+  transform: rotate(135deg);
+  top: 50%;
+}
+
+.spacer {
+  height: 1px;
+  width: 15px;
+}
+
+.delay {
+  transition-delay: 0.3s;
+}
